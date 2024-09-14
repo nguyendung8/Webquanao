@@ -60,7 +60,7 @@ class ProductController extends Controller
         $product->prod_slug = Str::slug($request->product_name);
         $product->prod_price = $request->price;
         $product->prod_condition = $request->condition;
-        $product->prod_status = $request->status;
+        $product->prod_status = 1;
         $product->prod_description = $request->description;
         $product->prod_cate = $request->cate;
         $product->prod_featured = $request->featured;

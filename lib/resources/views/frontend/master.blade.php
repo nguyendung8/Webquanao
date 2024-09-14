@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title> Q Shoes - @yield('title')</title>
+	<title> Thanh Vy Shop - @yield('title')</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -232,7 +232,7 @@
 			<div style="flex-wrap: unset !important;" class="row">
 				<div id="logo" class="col-md-3 col-sm-12 col-xs-12">
 					<a style="text-decoration: none;" href="{{ asset('/') }}">
-					    <img style="width: 135px !important;" src="img/home/logo-shoes.png" alt="">
+					    <img style="width: 117px !important;" src="img/home/logo.png" alt="">
 					</a>
 				</div>
 
@@ -286,20 +286,17 @@
 
 					<div id="banner-l" class="text-center">
 						<div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner1.png" alt="" class="img-thumbnail"></a>
+							<a href="{{ asset('/') }}"><img src="img/home/banner_4.webp" alt="" class="img-thumbnail"></a>
 						</div>
 						<div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner2.jpg" alt="" class="img-thumbnail"></a>
+							<a href="{{ asset('/') }}"><img src="img/home/banner_5.webp" alt="" class="img-thumbnail"></a>
 						</div>
-						{{--  <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner3.png" alt="" class="img-thumbnail"></a>
-						</div>  --}}
-						{{--  <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner4.jpeg" alt="" class="img-thumbnail"></a>
-						</div>  --}}
-						{{--  <div class="banner-l-item">
-							<a href="{{ asset('/') }}"><img src="img/home/banner3.jpeg" alt="" class="img-thumbnail"></a>
-						</div>  --}}
+						<div class="banner-l-item">
+							<a href="{{ asset('/') }}"><img src="img/home/banner_2.webp" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="{{ asset('/') }}"><img src="img/home/banner_3.webp" alt="" class="img-thumbnail"></a>
+						</div>
 					</div>
 				</div>
 				<div id="main" class="col-md-9">
@@ -318,16 +315,13 @@
 							<!-- The slideshow -->
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slide1.webp" alt="Banner" >
+									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slider_1.webp" alt="Banner" >
 								</div>
 								<div class="carousel-item">
-									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slide2.png" alt="Banner">
+									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slider_2.webp" alt="Banner">
 								</div>
 								<div class="carousel-item">
-									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slide3.png" alt="Banner" >
-								</div>
-                                <div class="carousel-item">
-									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slide4.png" alt="Banner">
+									<img style="border-radius: 3px;" width="900px" height="400px" src="img/home/slider_3.webp" alt="Banner" >
 								</div>
 							</div>
 
@@ -358,18 +352,18 @@
                     <div class="row">
                         <div id="logo" class="col-md-3 col-sm-12 col-xs-12">
 							<a style="text-decoration: none;" href="{{ asset('/') }}">
-                                <img style="width: 170px !important;" src="img/home/logo-shoes.png" alt="">
+                                <img style="width: 145px !important;" src="img/home/logo.png" alt="">
                             </a>
                         </div>
                         <div id="about" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>About us</h3>
-                            <p class="text-justify"> Q Shoes thành lập năm 2024. Chúng tôi là cửa hàng bán giày uy tín hàng đầu Việt Nam cũng như trên toàn thế giới.</p>
+                            <p class="text-justify"> Thanh Vy Shop thành lập năm 2024. Chúng tôi là cửa hàng bán quần áo uy tín hàng đầu Việt Nam cũng như trên toàn thế giới.</p>
                         </div>
                         <div id="hotline" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>Hotline</h3>
                             <p>Phone1: (+84) 934155611</p>
                             <p>Phone2: (+84) 523514521</p>
-                            <p>Email: qshoes@gmail.com</p>
+                            <p>Email: thanhvyshop@gmail.com</p>
                         </div>
                         <div id="contact" class="col-md-3 col-sm-12 col-xs-12">
                             <h3>Contact Us</h3>

@@ -4,7 +4,7 @@
         <base href="{{ asset('public/layout/backend')}}/">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>@yield('title') |  Q Shoes</title>
+        <title>@yield('title') |  Thanh Vy Shop</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/datepicker3.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
@@ -21,7 +21,7 @@
             @endif
             <div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="{{ asset('admin/home') }}"> Q Shoes Admin</a>
+				<a class="navbar-brand" href="{{ asset('admin/home') }}"> Thanh Vy Shop Admin</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> {{ Auth::user()->email }} <span class="caret"></span></a>

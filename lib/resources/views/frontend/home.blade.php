@@ -110,7 +110,7 @@
             @include('errors.note')
             <form method="post">
                 @csrf
-                <h3 class="contact-title">Cảm ơn quý khách đã quan tâm tới  Q Shoes! Xin vui lòng hoàn thành biểu mẫu dưới đây</h3>
+                <h3 class="contact-title">Cảm ơn quý khách đã quan tâm tới  Thanh Vy Shop! Xin vui lòng hoàn thành biểu mẫu dưới đây</h3>
                 <i class="fa fa-times close-btn close-contact" aria-hidden="true"></i>
                 <label for="">Họ và tên</label>
                 <div>
