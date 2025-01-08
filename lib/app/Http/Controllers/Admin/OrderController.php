@@ -42,6 +42,14 @@ class OrderController extends Controller
             'Đơn hàng của bạn đã được xác nhận và chúng tôi sẽ sớm chuyển tới bạn'
         ];
         $order->save();
+        Mail::send('backend.confirm_order',$data, function ($message) use ($email, $name) {
+            $message->from('dungli1221@gmail.com', 'Đức Hiếu');
+
+            $message->to($email, $name);
+
+            $message->subject('Thông báo đơn hàng của bạn đã được xác nhận tại Đức Hiếu Shop');
+
+        });
         return redirect()->intended('admin/order')->with('success', 'Xác nhận đơn hàng thành công!');
     }
     public function transportOrder($id)
@@ -54,6 +62,14 @@ class OrderController extends Controller
             'Đơn hàng của bạn đang trong quá trình vận chuyển'
         ];
         $order->save();
+        Mail::send('backend.transport_order',$data, function ($message) use ($email, $name) {
+            $message->from('dungli1221@gmail.com', 'Đức Hiếu');
+
+            $message->to($email, $name);
+
+            $message->subject('Thông báo đơn hàng của bạn đang được vận chuyển từ Đức Hiếu Shop');
+
+        });
         return redirect()->intended('admin/order')->with('success', 'Cập nhật đơn hàng thành công!');;
     }
 }
